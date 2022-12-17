@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+/* 1rem = 4px */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 8rem 1rem 8rem;
+    background-color: rgb(231, 122, 226);
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.nav-left img{
+    width: 8%;
+}
+
+.nav-right{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+
+/* COntent Home */
+
+.home-content{
+    height: 95vh;
+    background-image: url(../assets/wallpaper1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 0.1rem 0.1rem grey;
+}
+
+.home-content p{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.home-content h1{
+    font-weight: 600;
+}
+
+.btn-home{
+    border-style: none;
+    background-color: rgb(231, 122, 226);
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border-radius: 0.4rem;
+    box-shadow: 2px 2px grey;
+}
+
+.btn-home p{
+    color: white;
+    font-size: 12px;
+}
+
+/* Achievement */
+
+.achievement{
+    height: 95vh;
+    background-image: url(../assets/wallpaper2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.achievement-text{
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.all-winner-box{
+    display: flex;
+    padding: 8rem;
+    gap: 2rem;
+}
+
+.box{
+    background-color: rgb(180, 30, 55);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.h1-box{
+    font-weight: 800;
+    font-size: 40px;
+}
+
+/* content achievment */
+.content-achievement{
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("/assets/wallpaper2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 2rem;
+}
+
+.winner-box{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding: 0rem 4rem 0rem 4rem;
+}
+
+.first-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(188, 26, 134);
+    padding: 4rem;
+    border-radius: 2rem;
+    gap: 1rem;
+}
+.first-box p{
+    text-align: center;
+}
+
+.second-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(188, 26, 134);
+    padding: 4rem;
+    border-radius: 2rem;
+    gap: 1rem;
+}
+.second-box p{
+    text-align: center;
+}
+
+/* About us */
+
+.about-us{
+    background: url("/assets/wallpaper3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 12rem 15rem 12rem 15rem;
+}
+
+.card{
+    display: flex;
+    background-color: pink;
+    border-radius: 2rem;
+    height: 500px;
+}
+
+.card img{
+    border-radius: 2rem 0rem 0rem 2rem;
+}
+
+.about-us-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+/* footer */
+.footer{
+    color: white;
+    display: flex;
+    background-color: pink;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0rem 1rem 0rem;
+    gap: 1rem;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.footer-logo img{
+    width: 8%;
+}
+
+.footer-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+
+.sign-in{
+    border-style: solid;
+    border-width: 2px;
+    padding: 0.8rem;
+    color: white;
+    border-radius: 1rem;
+}
